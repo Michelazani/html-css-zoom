@@ -27,7 +27,6 @@
 
 .main-container{
     width: 90%;
-    background-color: antiquewhite;
 }
 
 .p-relative{
@@ -42,13 +41,23 @@ p{
 }
 
 .photos{
-    width: calc (100% / 7 -20 px);
+    width: calc (100% / 7 - 5 px);
 }
+
 
 img{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    padding-right: 10px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+
+.bottom-left{
+    left: 8px;
+    top: 88px;
+    font-size: smaller;
+    background-color: rgb(103, 115, 126);
+    width: 80px;
 }
 
 footer{
