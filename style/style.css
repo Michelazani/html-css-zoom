@@ -33,12 +33,19 @@
     position: relative;
 }
 
-p{
+p, 
+.top-right{
     color: white;
     position: absolute;
     top: 15px;
     right: 15px;
 }
+
+.text-top{
+    flex-direction: row;
+}
+
+
 
 .photos{
     width: calc (100% / 7 - 5 px);
@@ -55,9 +62,21 @@ img{
 .bottom-left{
     left: 8px;
     top: 88px;
-    font-size: smaller;
+    font-size: 12px;
     background-color: rgb(103, 115, 126);
     width: 100px;
+}
+
+
+.box-icon{
+width: 15px;
+background-color: rgb(133, 124, 116);
+
+}
+
+.box-text{
+    width: 215px;
+    background-color: rgb(133, 124, 116);
 }
 
 i{
