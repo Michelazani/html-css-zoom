@@ -57,7 +57,11 @@ img{
     top: 88px;
     font-size: smaller;
     background-color: rgb(103, 115, 126);
-    width: 80px;
+    width: 100px;
+}
+
+i{
+    padding-right: 0.5rem;
 }
 
 footer{
