@@ -4,3 +4,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* FLEX */
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 50px;
+    background-color: black;
+}
+
+.big-screen{
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background-color: black;
+    overflow: auto;
+}
+
+.main-container{
+    width: 90%;
+    background-color: antiquewhite;
+}
+
+.p-relative{
+    position: relative;
+}
+
+p{
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.photos{
+    width: calc (100% / 7 -20 px);
+}
+
+img{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 10px;
+}
+
+footer{
+    height: 50px;
+    background-color: aqua;
+}
+
