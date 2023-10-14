@@ -29,7 +29,10 @@
 
 } 
 
-
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .box-icon{
     width: 22px;
@@ -49,9 +52,7 @@
     overflow-y: auto;
 }
 
-.main-container{
-    width: 100%;
-}
+
 
 
 .p-relative{
@@ -94,9 +95,6 @@ img{
 }
 
 
-
-
-
 i{
     padding-right: 0.5rem;
     display: inline-block;
@@ -132,3 +130,7 @@ footer{
     color: red;
 }
 
+
+.fa-chevron-up{
+    padding: 0.5rem;
+}
