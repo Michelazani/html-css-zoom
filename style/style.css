@@ -16,39 +16,65 @@
 .header{
     height: 50px;
     background-color: black;
+    text-align: right;
 }
+
+
+.box-text{
+    width: 95px;
+    background-color: rgb(133, 124, 116);
+    margin-right: 2rem;
+    text-align: center;
+    border-radius: 5px;
+
+} 
+
+
+
+.box-icon{
+    width: 22px;
+    background-color: rgb(133, 124, 116);
+    display: inline-block;
+    font-size: 13px; 
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
 
 .big-screen{
     width: 100vw;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 130px);
     background-color: black;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 .main-container{
-    width: 90%;
+    width: 100%;
 }
+
 
 .p-relative{
     position: relative;
 }
 
 p, 
-.top-right{
+.top-right {
     color: white;
     position: absolute;
     top: 15px;
     right: 15px;
 }
 
-.text-top{
-    flex-direction: row;
+
+.white-text{
+     color: white;
 }
 
 
-
 .photos{
-    width: calc (100% / 7 - 5 px);
+    width: 150px;
+    height: 100px;
 }
 
 
@@ -68,23 +94,41 @@ img{
 }
 
 
-.box-icon{
-width: 15px;
-background-color: rgb(133, 124, 116);
 
-}
 
-.box-text{
-    width: 215px;
-    background-color: rgb(133, 124, 116);
-}
 
 i{
     padding-right: 0.5rem;
+    display: inline-block;
+    margin: 0.25;
 }
 
 footer{
-    height: 50px;
-    background-color: aqua;
+    height: 80px;
+    background-color: black;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.height{
+    height: 100%;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.text-header{
+    padding: 0.5rem;
+}
+
+.grey-bg{
+    background-color: rgb(74, 74, 74);
+    color: red;
 }
 
